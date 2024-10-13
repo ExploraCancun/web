@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+h1 { /* Titulo */
+    text-align: center;
+    background-color: #029e23;
+    color: white;
+    padding: 20px; /* Para que se separe un poco de los bordes */
+}
+
+nav ul{ /* Navegacion / Menu */
+    background-color: #ff7308;
+    width: 80%;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px; /*Hace que las esquinas se derrondeen*/
+}
+
+nav li{
+    display: inline-flex; /* Para que se recorra y se de forma de menu */
+}
+
+/* Hasta el momento el menu tiene un color azul y esta subrayado */
+
+nav a {
+    text-decoration: none; /* quitar lo subrayado */
+    color: white;
+    padding: 10px; /* Para que se separen un poco */
+    width: 150px; /* Para que use mas espacio de la pantalla */
+}
+
+nav li:hover { /* Para que cuando pasemos el mouse encima del menu, cambie el color */
+    background-color: #ffda08;
+}
+
+
+
+img { /* Imagen */
+    width: 200px; /* ancho */
+    height: 200px;/* altura */
+    margin: 20px;
+    object-fit: cover; /* la imagen mantiene sus proporciones reales */
+}
+
+.contenido { /* Texto contenido */
+    display: flex;
+    margin: 60px;
+}
+
+
+.secciones {
+    display: flex; /* la imagen se recorre a  un lado */
+    align-items: center; /* para que la imagen se centre */
+    padding: 40px;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+}
+  
+
+
+
+
+
+
+footer{
+    background-color: #0a2901;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a img {
+    width: 45px; /* Ajusta el ancho según tu preferencia */
+    height: 45px;
+    margin-left: 10px;
+}
+
+.fb-logo {
+    width: 45px;
+    height: 45px;
+}
+
+footer a span {
+    margin-left: 5px; /* Espacio entre la imagen y el texto */
+    font-size: 14px; /* Tamaño de la fuente */    
+}
+
+
+
+
+nav a:hover {
+    color: #018d21; /* Cambia el color a amarillo cuando el cursor esté encima */
+}
+
+
+
+
+body h1{
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #121111;  /* Darle sombra al titulo de la pagina */
+}
